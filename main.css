@@ -1,0 +1,442 @@
+/*li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+
+}*/
+header{ 
+    background-color: rgb(245, 215, 135);
+    padding: 0.3rem;
+    
+    height: 90px;
+    border:solid 2px rgb(180, 0, 0);
+} 
+.logos{
+    width: 80%;
+    margin-left: 0px;
+    margin-right: 4px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+header img{
+    width:135px;
+}
+*{  margin:0;
+    padding:0;
+
+
+}
+
+#page1 { margin-left: 15px ;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(https://img.freepik.com/photos-gratuite/vieux-papier-vintage-vieux-fond-texture_34266-532.jpg?size=626&ext=jpg);
+    background-size: 150%;
+}
+
+html{
+    background-repeat: no-repeat;   
+    
+}
+ul{
+    list-style-type: none;
+}
+li.deroulant{
+    position:relative;  
+    
+   
+}
+.sous{
+   position: absolute;
+   top: -500px;
+   
+}
+nav>ul li:hover .sous{
+    /*display:block;*/
+    background-color: #fff;
+    top:22px;
+    padding-right: 27px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border:1px solid black;
+
+}
+nav{
+    display:inline ;
+}
+
+ul.sous li{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+
+.gros{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+main {
+    background-image:url(https://th.bing.com/th/id/R.81e623a6382a900a71eaef5bb3f35760?rik=64lkxPgo74u8lA&riu=http%3a%2f%2fwww.photos-public-domain.com%2fwp-content%2fuploads%2f2011%2f02%2fwhite-parchment-paper-texture.jpg&ehk=pvq1oE%2fcczfQW0ndE3y1Uf3Zil9ujDhH6su%2fSkMVAUw%3d&risl=&pid=ImgRaw&r=0);  
+    margin: auto;
+    width:68%;
+    border: 2px solid rgb(180, 0, 0);
+    margin-top: 120px;
+
+}
+
+.divmangas{
+    display:flex;
+    flex-wrap:wrap;
+    row-gap:2rem;
+}
+.divmangas > div{
+    width: 25%;
+    border: 2px solid rgb(180, 0, 0);
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 10%;
+    
+
+}
+.divmangas > div > img{
+    width:50%;
+    margin:auto;
+}
+img{
+    width:auto;;
+    height:auto;
+    max-width:100%;
+}
+
+
+
+.scans{
+    margin-top:10%;
+    margin-left: 27%;
+    margin-right: 27%;
+    
+}
+.asr{
+    width: 40px;
+    float: left;
+    margin-right: 5%;
+}
+.bordurescan{
+    margin-top: 1%;
+    border-color: rgb(255, 0, 0);
+    margin-bottom: 50px;
+}
+.bordurescan4{
+    margin-top: 1%;
+    margin-bottom: 30px;
+    border-color: rgb(255, 0, 0);
+}
+.scan{
+    margin-top:3%;
+}
+.maincarousel{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.act{
+    color: rgb(255, 0, 0);
+}
+.bordurescans{
+    margin-top: 1%;
+    margin-bottom: 30px;
+    border-color: rgb(255, 0, 0);
+}
+.titremanga{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+
+.berserk1{
+    width: 110px;
+    height: 170px;
+}
+.bordurescans2{
+    margin-top: 1%;
+    margin-left: 19%;
+    margin-right: 19%;
+    margin-bottom: 10%;
+    border-color: rgb(255, 0, 0); 
+}
+.titremanga2{
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: 18%;
+    font-size: 50px;
+    
+}
+.divmangas{
+    
+    margin-left: 5%;
+    
+}
+
+
+.apropos{
+   background-image: url(https://i0.wp.com/zaknorton.com/wp-content/uploads/2013/05/white-parchment-paper-texture-800x533-background1.jpg?resize=600%2C400);
+    border: 2px solid rgb(180, 0, 0);
+    width: 700px;
+    height: 300px;
+    margin-left: 246px;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    border-radius: 10%;
+    padding: 50px;
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    
+    
+    
+}
+.figurine{
+    border: 2px solid rgb(180, 0, 0);
+    border-radius: 10%;
+    
+    background-color: white;
+}
+.titrefigurine{
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+.prixfigurine{
+    margin-bottom: 3px;
+}
+
+    
+
+.boutton{
+    margin-bottom: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 0, 0);;
+    width: 130px;
+    height: 30px;
+}
+.vu{
+    width: 70px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 8px;
+}
+.narutok{
+    width: 500px;
+    margin: 100px;
+    float: right;
+    margin-top: -175px;
+    margin-right: -50px;
+}
+.textevalid{
+    margin-left: 150px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    
+}
+.footer1{
+    width: 1349px;
+    height: 280px;
+}
+.labonne1{
+    width: 1200px;
+    margin-left: -500px;
+    margin-top: 100px;
+}
+.FTD{
+   margin-top: 20px;
+    width: 190px; 
+    margin-left: 0px;
+    
+}
+li.deroulant1{
+    position:relative;  
+    margin-left: 410px;
+    margin-top: 100px;
+    
+    
+    
+    
+}
+.sous1{
+   position: absolute;
+   top:-5000px;
+   margin-left: 200px;
+   
+   
+}
+nav>ul li:hover .sous1{
+    /*display:block;*/
+    background-color: #fff;
+    top:22px;
+    padding-right: 27px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border:1px solid black;
+
+}
+ul.sous1 li{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.moi1{
+    background-color: black;
+   
+    height: 460px;
+    color: rgb(255, 255, 255);
+    margin-top: -4px;
+    
+}
+.imgfooter{
+    width: 30px;
+    margin-left: 20px;
+    
+}
+.deroulant{
+    color: rgb(255, 255, 255);
+    
+    width: 130px;
+    height: 30px;
+}
+
+.FTD{
+    float: left;
+}
+.titrejeutail{
+    float: left;
+   margin-top: -90px;
+   margin-left: 240px;
+   
+}
+
+
+.plateformejeu{
+    float: left;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+.prixjeu{
+    float: left;
+    font-size: 40px;
+    margin-left: 22px;
+}
+.titrejeu{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 210px;
+}
+.boutton2{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 36px;
+    background-color: rgb(74, 71, 255);
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: black;
+}
+.fairytailvideo{
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+}
+.nosproduits{
+    width: 170px;
+    height:32px;
+    font-size: 20px;
+    margin-left: 1px;
+    margin-top: 23px;
+    background-color: rgb(255, 255, 255);
+   
+    border: 1px solid;
+    border-color: black;
+}
+.apropos1{
+    width: 170px;
+    height:32px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 47px;
+    background-color: rgb(255, 255, 255);
+    
+    border: 1px solid;
+    border-color: black;
+}
+.loupe{
+    width: 44px;
+    margin-left: 92px;
+    margin-top: 47px;
+   
+    border: 1px solid black;
+
+    
+}
+.barre{
+    
+    width: 350px;
+    height:30px;
+    font-size: 20px;
+    margin-left: -1px;
+    margin-top: 46px;
+    background-color: rgb(255, 255, 255);   
+    border: 1px solid;
+    border-color: black;
+    margin-right: 0px;
+    
+}
+.symbolmanga{
+    width: 6%;
+    float: left;
+    margin-top: 49px;
+    margin-left: 88px;
+}
+.dsl{
+    margin-bottom: 50px;
+}
+
+.mangaclass_1{
+    background-color: rgba(255, 255, 255, 0.808);
+}
+.sangoku1{
+    margin-bottom: -10px;
+}
+.validationf{
+    background-color:  rgb(180, 0, 0);
+}
+.continuermesachats{
+    margin-left: 980px;
+    
+}
+.sangoku2{
+    margin-bottom: -50px;
+}
+.koj{
+    margin-top: 50px;
+}
+.infooter1{
+margin-left: 200px;
+    padding-top: 100px;
+}
+.infooter2{
+    margin-left: 200px;
+}

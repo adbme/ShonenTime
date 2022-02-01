@@ -1,0 +1,12 @@
+1-creer une section
+2- creer une div x
+3- dans cette div mettre ton image x
+4- creer une div x
+5- creer H2 pour titre x
+6- dans un paragraphe mettre les supports x
+7- creer une div x
+8- dans un paragraphe mettre le prix x
+9- dans un menu deroulant mettre les supports 
+10- bouton acheter
+
+
